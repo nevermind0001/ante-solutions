@@ -9,34 +9,38 @@
 
         <link rel = "icon" href =  "https://cdn.discordapp.com/attachments/733377812202913832/776848012084248586/Opera_senza_titolo.png"> 
 
+        <script src="scripts/utils.js"></script>
 
     </head>
 
-    <body>
+    <body onload="startTime()">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark static-top">
-            <div class="container">
-              <a class="navbar-brand" href="index.html">
-                    <img width="138" height="36" src="https://cdn.discordapp.com/attachments/715998268978626692/776856130407235584/Opera_senza_titolo.png" alt="">
-                  </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a id= "item" class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id= "item" class="nav-link" href="cose-assurde.html">Cose Fighe</a>
-                  </li>
-                  <li class="nav-item">
-                    <a id= "item" class="nav-link"  href="services.html">Services</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark static-top">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">
+                <img width="138" height="36" src="https://cdn.discordapp.com/attachments/715998268978626692/776856130407235584/Opera_senza_titolo.png" alt="">
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a id= "item" class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a id= "item" class="nav-link" href="cose-assurde.html">Cose Fighe</a>
+            </li>
+            <li class="nav-item">
+                <a id= "item" class="nav-link"  href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a id="clock" class="nav-link"></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
 
 
 

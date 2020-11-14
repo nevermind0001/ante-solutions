@@ -5,3 +5,11 @@
 #video-table {
     text-align: center;
 }
+
+#clock {
+    color: white;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
