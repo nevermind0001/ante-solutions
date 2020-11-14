@@ -1,5 +1,9 @@
 /*UPDATE !!!!!!!!!!!!!*/
 
+#title {
+    font-size: 150px;
+}
+
 
 #item {
     color: white;
@@ -11,10 +15,6 @@
 
 #clock {
     color: white;
-}
-
-#title {
-    font-size: 150px;
 }
 
 .navbar-collapse.collapse.in {
