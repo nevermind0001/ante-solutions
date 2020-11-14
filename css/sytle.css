@@ -1,12 +1,5 @@
 /*UPDATE !!!!!!!!!!!!!*/
-@font-face {
-    font-family: 'microgramma_dbold_extended';
-    src: url('microgramma_d_extended_bold-webfont.woff2') format('woff2'),
-         url('microgramma_d_extended_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 #item {
     color: white;
@@ -22,7 +15,6 @@
 
 #title {
     font-size: 150px;
-    font-family: microgramma_dbold_extended;
 }
 
 .navbar-collapse.collapse.in {
