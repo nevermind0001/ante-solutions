@@ -3,6 +3,7 @@
 
 #item {
     color: white;
+    text-decoration: none;
 }
 
 #video-table {
@@ -21,17 +22,6 @@
     padding: 100px 20px;
     font-size: 200px;
     border-radius: 10px;
-}
-
-#subtitle_shop {
-    font-size: 30px;
-    position: relative;
-    bottom: 200px;
-}
-
-#description_shop {
-    position: relative;
-    bottom: 200px;
 }
 
 
